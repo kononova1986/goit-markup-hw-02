@@ -24,8 +24,6 @@ font-style: none;
 
 /*Шапка*/
 .hedader {
-    width: 1440px;
-    height: 72px;
     background: #FFF;
 }
 .menu {
@@ -39,7 +37,7 @@ font-style: none;
     line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin: 25.5px 0px 25.5px 0px;
+
 }
 .menu-link-studio {
     color: #2e2f42 ;
@@ -52,7 +50,7 @@ font-style: none;
 }
 
 .menu-list {
-    margin: 24px 0px 24px 0px;
+
 }
 
 .menu-item-link {
@@ -60,25 +58,22 @@ font-style: none;
     font-size:16px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.32px; 
-    margin-right: 40px;   
+    letter-spacing: 0.32px;  
 }
 .menu-item-link:hover,
 .menu-item-link:focus,
 .menu-item-link:active{
-    color: #404BBF;
+    color:#404bbf;
 }
 
 .contacts {
-    margin-left: 292px;
-    margin-right: 116px;
     letter-spacing: 0.32px;
     font-style: normal;
     font-size:16px; 
     line-height: 24px;
 }
 .contacts-list {
-    margin: 24px 0px 24px 0px;
+
 }
 
 .contacts-link{
@@ -99,7 +94,6 @@ font-style: none;
 
 }
 .banner-title {
-    width: 496px;
     color:#FFF;
     text-align: center;
     font-size: 56px;
@@ -116,7 +110,6 @@ font-style: none;
     background: #4D5AE5;
     display: inline-flex;
     color: #FFF;
-    margin-left:164px;
     cursor:pointer;   
 }
 .banner-button:hover,
@@ -132,10 +125,8 @@ font-style: none;
     
 }
 .soft-skills-item {
-    margin-left: 24px;
 }
 .soft-skills-item-title{
-    width: 264px;
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -143,7 +134,6 @@ font-style: none;
     letter-spacing: 0.4px;
 }
 .soft-skills-item-text{
-    width: 264px;
     color:#434455;
     font-size: 16px;
     line-height: 24px;
@@ -152,11 +142,8 @@ font-style: none;
 
 /*Команда*/
 .team {
-    min-width: 1440px;
-    height: 732px;
     flex-shrink: 0;
     background:#F4F4FD;
-    padding: 120px 156px 120px 156px;
 }
 .team-title{
     color: #2E2F42;
@@ -168,19 +155,15 @@ font-style: none;
     text-transform: capitalize;
 }
 .team-list {
-    padding: 0px;
+    
 }
 .team-item {
-    margin-top: 72px;
-    width: 264px;
-    margin-right: 24px;
     line-height: 1.2;
     justify-content: center;
     background:  #FFF;
 }
 
 .team-item-title{
-    margin: 32px 0px 0px 0px;
     color:#2E2F42;
     text-align: center;
     font-size: 20px;
@@ -189,7 +172,6 @@ font-style: none;
     letter-spacing: 0.4px;
 }
 .team-item-text{
-    margin: 8px 0px 32px 0px;
     color: #434455;
     text-align: center;
     font-size: 16px;
@@ -209,7 +191,6 @@ font-style: none;
     line-height: 40px; 
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    margin-bottom: 24px;
     line-height: 1.11;
 }
 .portfolio-list {
@@ -217,19 +198,12 @@ font-style: none;
 }
 .portfolio-item {
     line-height: 1.11;
-    width: 360px;
-    height: 420px;
-    margin-right: 24px;
-    margin-top: 48px;
-    flex-shrink: 0;
-    border: 1px solid #E7E9FC;
     background: #FFF;
 }
 .portfolio-item:nth-child(3){
-    margin-right: 0px;
 }
 .portfolio-item:nth-child(6){
-    margin-right: 0px;
+    
 }
 .portfolio-item-title{
     color:#2E2F42;
@@ -237,7 +211,6 @@ font-style: none;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
-    margin: 32px 0px 0px 0px;
 
 }
 .portfolio-item-text{
@@ -246,12 +219,10 @@ font-style: none;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
-    margin: 8px 0px 32px 0px;
 }
 
 /*Подвал*/
 .down {
-    height: 312px;
     flex-shrink: 0;
     background: #2E2F42;
 }
@@ -266,8 +237,6 @@ font-style: none;
     text-transform: uppercase;
     }
 .down-link-studio{
-    width: 71px;
-    height: 21px;
     justify-content: center;
     color:#F4F4FD;
     font-family: "Raleway", sans-serif;
@@ -278,12 +247,10 @@ font-style: none;
     text-transform: uppercase;
 }
 .down-text{
-    width: 264px;
     color:#F4F4FD;
     font-size: 16px;
     line-height: 24px; 
     letter-spacing: 0.32px;
-    margin: 0px 1020px 100px 156px;
 }
 
 
