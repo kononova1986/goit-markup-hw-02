@@ -36,20 +36,20 @@ font-style: none;
     display: flex;
 }
 .logo{
-    color:#4D5AE5;
-    font-family: Raleway;
+    color:#4d5ae5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     padding-left: 156px;
     padding-right: 76px;
     margin: 25.5px 0px 25.5px 0px;
 }
 .menu-link-studio {
-    color: #2E2F42;
-    font-family: Raleway;
+    color: #2e2f42 ;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
