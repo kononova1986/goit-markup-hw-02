@@ -172,6 +172,7 @@ font-style: none;
 
 /*Команда*/
 .team {
+    min-width: 1440px;
     height: 732px;
     flex-shrink: 0;
     background:#F4F4FD;
