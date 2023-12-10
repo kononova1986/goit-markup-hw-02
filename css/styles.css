@@ -3,9 +3,6 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color:#FFF;
     color:#434455;
-    width: 1440px;
-    height: 100%;
-    margin: 0 auto;
 }
 h1,h2,h3{
     color: #2E2F42;
@@ -108,7 +105,6 @@ font-style: none;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: #4D5AE5;
-    display: inline-flex;
     color: #FFF;
     cursor:pointer;   
 }
@@ -119,7 +115,7 @@ font-style: none;
 
 /*Скилы*/
 .soft-skills {
-    flex-shrink: 0;
+    
 }
 .soft-skills-list {
     
@@ -142,7 +138,6 @@ font-style: none;
 
 /*Команда*/
 .team {
-    flex-shrink: 0;
     background:#F4F4FD;
 }
 .team-title{
@@ -187,8 +182,7 @@ font-style: none;
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
-    font-weight: 700;
-    line-height: 40px; 
+    font-weight: 700; 
     letter-spacing: 0.72px;
     text-transform: capitalize;
     line-height: 1.11;
@@ -223,7 +217,6 @@ font-style: none;
 
 /*Подвал*/
 .down {
-    flex-shrink: 0;
     background: #2E2F42;
 }
 
