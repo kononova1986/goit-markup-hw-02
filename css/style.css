@@ -35,7 +35,7 @@ font-style: none;
 .menu {
     display: flex;
 }
-.menu-link {
+.logo{
     color:#4D5AE5;
     font-family: Raleway;
     font-size: 18px;
@@ -47,7 +47,6 @@ font-style: none;
     padding-right: 76px;
     margin: 25.5px 0px 25.5px 0px;
 }
-
 .menu-link-studio {
     color: #2E2F42;
     font-family: Raleway;
@@ -183,7 +182,7 @@ font-style: none;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px; 
+    line-height: 1.11; 
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -195,6 +194,7 @@ font-style: none;
     margin-top: 72px;
     width: 264px;
     margin-right: 24px;
+    line-height: 1.2;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
@@ -247,6 +247,7 @@ font-style: none;
 }
 .portfolio-item {
     display: flex;
+    line-height: 1.11;
     width: 360px;
     height: 420px;
     padding: 0px;
