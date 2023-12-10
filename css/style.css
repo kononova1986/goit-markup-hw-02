@@ -35,12 +35,13 @@ font-style: none;
 .menu {
     display: flex;
 }
-.logo{
-    color:#4d5ae5;
+.menu-link{
+    display: flex;
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.17;
+    line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
     padding-left: 156px;
@@ -52,8 +53,8 @@ font-style: none;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;;
     text-transform: uppercase;
 }
 
