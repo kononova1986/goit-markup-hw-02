@@ -1,4 +1,3 @@
-@import url(/css/normalize.css);
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -25,18 +24,14 @@ font-style: none;
 
 /*Шапка*/
 .hedader {
-    display: flex;
     width: 1440px;
     height: 72px;
-    flex-shrink: 0;
-    border-bottom: 1px solid #E7E9FC;
     background: #FFF;
 }
 .menu {
-    display: flex;
+    
 }
 .menu-link{
-    display: flex;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -44,8 +39,6 @@ font-style: none;
     line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-left: 156px;
-    padding-right: 76px;
     margin: 25.5px 0px 25.5px 0px;
 }
 .menu-link-studio {
@@ -59,9 +52,7 @@ font-style: none;
 }
 
 .menu-list {
-    display: flex;
     margin: 24px 0px 24px 0px;
-    padding: 0px;
 }
 
 .menu-item-link {
@@ -87,13 +78,11 @@ font-style: none;
     line-height: 24px;
 }
 .contacts-list {
-    display: flex;
     margin: 24px 0px 24px 0px;
-    padding: 0px;
 }
 
 .contacts-link{
-    padding-right: 40px;
+    
 }
 .contacts-link-mail-tell{
     color:#434455; 
@@ -107,7 +96,7 @@ font-style: none;
 /*Банер*/
 .banner {
     background: #2E2F42;
-    padding: 188px 472px 188px 472px;
+
 }
 .banner-title {
     width: 496px;
@@ -124,13 +113,8 @@ font-style: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    border-radius: 4px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
     color: #FFF;
     margin-left:164px;
     cursor:pointer;   
@@ -145,8 +129,6 @@ font-style: none;
     flex-shrink: 0;
 }
 .soft-skills-list {
-    display: flex;
-    padding: 120px 156px 120px 132px; 
     
 }
 .soft-skills-item {
@@ -186,7 +168,6 @@ font-style: none;
     text-transform: capitalize;
 }
 .team-list {
-    display: flex;
     padding: 0px;
 }
 .team-item {
@@ -194,17 +175,11 @@ font-style: none;
     width: 264px;
     margin-right: 24px;
     line-height: 1.2;
-    display: inline-flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border-radius: 0px 0px 4px 4px;
     background:  #FFF;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-item-title{
-    padding: 0px;
     margin: 32px 0px 0px 0px;
     color:#2E2F42;
     text-align: center;
@@ -214,7 +189,6 @@ font-style: none;
     letter-spacing: 0.4px;
 }
 .team-item-text{
-    padding: 0px;
     margin: 8px 0px 32px 0px;
     color: #434455;
     text-align: center;
@@ -226,7 +200,6 @@ font-style: none;
 /*Портфолио*/
 .portfolio {
     background: #FFF;
-    padding:  120px 132px 120px 156px; 
 }
 .portfolio-title{
     color: #2E2F42;
@@ -240,20 +213,14 @@ font-style: none;
     line-height: 1.11;
 }
 .portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0px;
+
 }
 .portfolio-item {
-    display: flex;
     line-height: 1.11;
     width: 360px;
     height: 420px;
-    padding: 0px;
     margin-right: 24px;
     margin-top: 48px;
-    flex-direction: column;
-    align-items: flex-start;
     flex-shrink: 0;
     border: 1px solid #E7E9FC;
     background: #FFF;
@@ -271,7 +238,6 @@ font-style: none;
     line-height: 24px;
     letter-spacing: 0.4px;
     margin: 32px 0px 0px 0px;
-    padding: 0px 16px 0px 16px;
 
 }
 .portfolio-item-text{
@@ -281,7 +247,6 @@ font-style: none;
     line-height: 24px;
     letter-spacing: 0.32px;
     margin: 8px 0px 32px 0px;
-    padding: 0px 16px 0px 16px;
 }
 
 /*Подвал*/
@@ -292,8 +257,6 @@ font-style: none;
 }
 
 .down-link{
-    display: flex;
-    padding: 101.5px 1240px 0px 156px;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -303,10 +266,8 @@ font-style: none;
     text-transform: uppercase;
     }
 .down-link-studio{
-    display: flex;
     width: 71px;
     height: 21px;
-    flex-direction: column;
     justify-content: center;
     color:#F4F4FD;
     font-family: "Raleway", sans-serif;
@@ -317,7 +278,6 @@ font-style: none;
     text-transform: uppercase;
 }
 .down-text{
-    padding-top: 17.5px;
     width: 264px;
     color:#F4F4FD;
     font-size: 16px;
