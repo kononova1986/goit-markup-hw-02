@@ -102,7 +102,7 @@ font-style: none;
 
 .contacts-link-mail-tell:hover,
 .contacts-link-mail-tell:focus{
-  color: #404bbf
+    color: #404bbf
 }
 
 /*Банер*/
@@ -211,7 +211,7 @@ font-style: none;
     text-align: center;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.11;
+    line-height: 1.2 ;
     letter-spacing: 0.4px;
 }
 .team-item-text{
